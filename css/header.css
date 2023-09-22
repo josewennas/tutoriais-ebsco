@@ -1,0 +1,19 @@
+header, img{
+    width: 100%;
+    margin: 0em 0em 0em 0em;
+}
+
+.topo-1024{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .topo-1024{
+        display: flex;
+    }
+
+    .topo-mobile{
+        display: none;
+    }
+    
+}

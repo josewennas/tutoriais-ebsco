@@ -1,0 +1,186 @@
+@import url("css/header.css");
+@import url("css/botao-inscricao.css");
+@import url("css/footer.css");
+@import url("css/main.css");
+@import url("css/nomes-dos-cursos.css");
+@import url("css/pagina-individual.css");
+
+
+
+:root {
+    --cordefundo: #EBECEE;
+    --branco: #FFFFFF;
+    --azul-escuro: #0c2e5e;
+    --azul-semi-claro: #63a8dc;
+    --azul-claro: #97c6eb;
+    --font: 'Fira Sans', sans-serif;
+    --verdeunifacema:#afdb00;
+}
+
+body {
+    background-color: var(--cordefundo);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+
+/* .cursos{
+text-align: center;
+} */
+
+h1 {
+    font-family: var(--font);
+    font-weight: 900;
+    /* color: var(--branco); */
+    color: #0c2e5e;
+}
+
+h3 {
+    font-family: var(--font);
+    font-weight: 900;
+    color: var(--azul-escuro);
+
+}
+
+h2 {
+    font-family: var(--font);
+    font-weight: 900;
+    color: var(--azul-escuro);
+    /* text-transform: uppercase; */
+}
+
+.titulo-nome-docurso{
+
+    background-color:#9dd100;
+    padding: 1em;
+    font-family: var(--font);
+    font-weight: 900;
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+
+
+.links-dos-tutoriais{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.conteiner-tutorial{
+    padding: 1em;
+
+
+}
+
+.tutorial{
+    margin: 0.5em;
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+}
+.voltar-a-pagina-inicial {
+
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+    background-color: var(--verdeunifacema);
+    font-weight: 900;
+    color: var(--branco);
+    border-radius: 1em;
+    padding: 1em 2em 1em 2em;
+    width: 50%;
+
+    
+
+}
+
+.baixe-o-tutorial{
+    text-align: center;
+text-decoration: none;
+    margin: 1em;
+    background-color: var(--azul-escuro);
+    font-weight: 900;
+    color: var(--branco);
+    border-radius: 1em;
+    padding: 1em 2em 1em 2em;
+    width: 50%;
+
+}
+
+.botoes-para-dowload{
+    margin: 1em 0em 0em 0em;
+    background-color: #e6e3e3;
+
+}
+
+.baixe-o-tutorial:hover{
+    transform: scale(1.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: #194786;
+
+}
+
+.voltar-a-pagina-inicial:hover{
+    transform: scale(1.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color:#0aa130;
+
+}
+
+.conteiner-tutorial:hover{
+    transform: scale(1.2);
+
+}
+
+@media screen and (min-width:900px) {
+
+    .voltar-a-pagina-inicial {
+
+
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        margin: 0em 0em 2em 0em;
+        background-color: var(--verdeunifacema);
+        color: var(--branco);
+        border-radius: 1em;
+        padding: 1em 2em 1em 2em;
+        width: 40%;
+
+
+    }
+
+    .baixe-o-tutorial{
+        text-align: center;
+    text-decoration: none;
+        margin: 2em 0em 1em 0em;
+        background-color: var(--azul-escuro);
+        font-weight: 900;
+        color: var(--branco);
+        border-radius: 1em;
+        padding: 1em 2em 1em 2em;
+        width: 40%;
+    
+    }
+
+    .links-dos-tutoriais{
+        display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+        text-align: center;
+        margin: 2em;
+        padding: 3em;
+    }
+
+    
+
+
+}
